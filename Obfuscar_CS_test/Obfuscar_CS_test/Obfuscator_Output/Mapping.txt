@@ -1,0 +1,56 @@
+Renamed Types:
+
+[Obfuscar_CS_test]System.Runtime.CompilerServices.NullableAttribute -> [Obfuscar_CS_test] . 
+{
+
+	[Obfuscar_CS_test]System.Runtime.CompilerServices.NullableAttribute::.ctor[1]( [System.Runtime]System.Byte ) skipped:  special name
+	[Obfuscar_CS_test]System.Runtime.CompilerServices.NullableAttribute::.ctor[1]( [System.Runtime]System.Byte[] ) skipped:  special name
+
+	System.Byte[] [Obfuscar_CS_test]System.Byte[] System.Runtime.CompilerServices.NullableAttribute::NullableFlags ->  
+}
+
+[Obfuscar_CS_test]System.Runtime.CompilerServices.NullableContextAttribute -> [Obfuscar_CS_test] . 
+{
+
+	[Obfuscar_CS_test]System.Runtime.CompilerServices.NullableContextAttribute::.ctor[1]( [System.Runtime]System.Byte ) skipped:  special name
+
+	System.Byte [Obfuscar_CS_test]System.Byte System.Runtime.CompilerServices.NullableContextAttribute::Flag ->  
+}
+
+[Obfuscar_CS_test]Obfuscar_CS_test.Form1 -> [Obfuscar_CS_test] . 
+{
+	[Obfuscar_CS_test]Obfuscar_CS_test.Form1::Form1_Load[2]( [System.Runtime]System.Object, [System.Runtime]System.EventArgs ) ->  
+	[Obfuscar_CS_test]Obfuscar_CS_test.Form1::button1_Click[2]( [System.Runtime]System.Object, [System.Runtime]System.EventArgs ) ->  
+	[Obfuscar_CS_test]Obfuscar_CS_test.Form1::InitializeComponent[0]( ) ->  
+
+	[Obfuscar_CS_test]Obfuscar_CS_test.Form1::.ctor[0]( ) skipped:  special name
+	[Obfuscar_CS_test]Obfuscar_CS_test.Form1::Dispose[1]( [System.Runtime]System.Boolean ) skipped:  external base class or interface
+
+	System.ComponentModel.IContainer [Obfuscar_CS_test]System.ComponentModel.IContainer Obfuscar_CS_test.Form1::components ->  
+	System.Windows.Forms.Button [Obfuscar_CS_test]System.Windows.Forms.Button Obfuscar_CS_test.Form1::button1 ->  
+}
+
+[Obfuscar_CS_test]Microsoft.CodeAnalysis.EmbeddedAttribute -> [Obfuscar_CS_test] . 
+{
+
+	[Obfuscar_CS_test]Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor[0]( ) skipped:  special name
+}
+
+[Obfuscar_CS_test]Obfuscar_CS_test.Program -> [Obfuscar_CS_test] . 
+{
+	[Obfuscar_CS_test]Obfuscar_CS_test.Program::Main[0]( ) ->  
+}
+
+[Obfuscar_CS_test]Obfuscar_CS_test.ApplicationConfiguration -> [Obfuscar_CS_test] . 
+{
+	[Obfuscar_CS_test]Obfuscar_CS_test.ApplicationConfiguration::Initialize[0]( ) ->  
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+Obfuscar_CS_test.Form1.resources ->  . .resources
+
+Skipped Resources:
+

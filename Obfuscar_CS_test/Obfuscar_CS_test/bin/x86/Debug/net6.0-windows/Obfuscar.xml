@@ -9,7 +9,7 @@
 	<!--混淆代码的参数-->
 	<Var name="ReuseNames" value="true" />
 	<Var name="HideStrings" value="true" />
-	<Var name="KeepPublicApi" value="true" />
+	<Var name="KeepPublicApi" value="false" />
 	<Var name="HidePrivateApi" value="true" />
 	<Var name="RenameProperties" value="true" />
 	<Var name="RenameEvents" value="true" />

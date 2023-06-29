@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1yzS1qa8f123M3x9gV2tCEWDNyXJ5ugFXzhJJdOR/+tTJPHrezINdcGSSyD4N14TTLijx+zMMTsmHoNcsl6kvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\devel\\Desktop\\GITHUB\\Obfuscar_CS_project\\Obfuscar_CS_test\\Obfuscar_CS_test\\Obfuscar_CS_test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devel\\.nuget\\packages\\msbuild.obfuscar\\2.2.35.2\\msbuild.obfuscar.2.2.35.2.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\obfuscar\\2.2.37\\obfuscar.2.2.37.nupkg.sha512"
+  ],
+  "logs": []
+}

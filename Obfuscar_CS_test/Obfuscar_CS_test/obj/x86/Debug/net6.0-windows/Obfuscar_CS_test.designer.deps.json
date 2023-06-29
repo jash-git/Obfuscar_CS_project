@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MSBuild.Obfuscar/2.2.35.2": {
+        "dependencies": {
+          "Obfuscar": "2.2.37"
+        }
+      },
+      "Obfuscar/2.2.37": {}
+    }
+  },
+  "libraries": {
+    "MSBuild.Obfuscar/2.2.35.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5aj+yO9PQJC5yXhqfB33B2vwSbSoO7QcU9lKfkB9UoTVcJsg8nNw90YfgWhs0ZIRBzxDIAJl3G/+Jp6Ax7hw7g==",
+      "path": "msbuild.obfuscar/2.2.35.2",
+      "hashPath": "msbuild.obfuscar.2.2.35.2.nupkg.sha512"
+    },
+    "Obfuscar/2.2.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vK0+/SYvEKvLD2ZdxDwZskOXkidRg0fkG1/clOB+albDLGAj/WShgkFhYh+4w1GaWCDTTiL7Q4306aaPzUAoVw==",
+      "path": "obfuscar/2.2.37",
+      "hashPath": "obfuscar.2.2.37.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://www.yangyouji.info/archives/772 -->
+<html dir="ltr" lang="zh-CN" prefix="og: https://ogp.me/ns#" class="jetpack-lazy-images-js-enabled"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width">
+
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://www.yangyouji.info/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://www.yangyouji.info/wp-content/themes/twentytwelve/js/html5.js?ver=3.7.0" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript">
+(()=>{var e={};e.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),function(n){let{ampUrl:t,isCustomizePreview:r,isAmpDevMode:o,noampQueryVarName:s,noampQueryVarValue:i,disabledStorageKey:a,mobileUserAgents:c,regexRegex:d}=n;if("undefined"==typeof sessionStorage)return;const g=new RegExp(d);if(!c.some((e=>{const n=e.match(g);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navigator.userAgent.includes(e)})))return;e.g.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("amp-mobile-version-switcher");if(!e)return;e.hidden=!1;const n=e.querySelector("a[href]");n&&n.addEventListener("click",(()=>{sessionStorage.removeItem(a)}))}));const u=o&&["paired-browsing-non-amp","paired-browsing-amp"].includes(window.name);if(sessionStorage.getItem(a)||r||u)return;const m=new URL(location.href),h=new URL(t);h.hash=m.hash,m.searchParams.has(s)&&i===m.searchParams.get(s)?sessionStorage.setItem(a,"1"):h.href!==m.href&&(window.stop(),location.replace(h.href))}({"ampUrl":"https:\/\/www.yangyouji.info\/archives\/772?amp=1","noampQueryVarName":"noamp","noampQueryVarValue":"mobile","disabledStorageKey":"amp_mobile_redirect_disabled","mobileUserAgents":["Mobile","Android","Silk\/","Kindle","BlackBerry","Opera Mini","Opera Mobi"],"regexRegex":"^\\/((?:.|\n)+)\\/([i]*)$","isCustomizePreview":false,"isAmpDevMode":false})})();
+</script>
+
+		<!-- All in One SEO 4.3.9 - aioseo.com -->
+		<title>C# 混淆工具 obfuscar - YangYouji's WebSite</title>
+		<meta name="description" content="c# 编译生成的exe 与 dll 如果不进行混淆，可以方便的反编译出源代码。虽然软件开源是趋势，但这种非自愿，非正式的公开还是给人不爽的感觉。c#混淆工具很多，收费的也很多，下面介绍一个开源混淆工具obfuscar，简单混淆一下的使用场景足够了。">
+		<meta name="robots" content="max-image-preview:large">
+		<link rel="canonical" href="https://www.yangyouji.info/archives/772">
+		<meta name="generator" content="All in One SEO (AIOSEO) 4.3.9">
+		<meta property="og:locale" content="zh_CN">
+		<meta property="og:site_name" content="YangYouji&#39;s WebSite - IT,VISION">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="C# 混淆工具 obfuscar - YangYouji&#39;s WebSite">
+		<meta property="og:description" content="c# 编译生成的exe 与 dll 如果不进行混淆，可以方便的反编译出源代码。虽然软件开源是趋势，但这种非自愿，非正式的公开还是给人不爽的感觉。c#混淆工具很多，收费的也很多，下面介绍一个开源混淆工具obfuscar，简单混淆一下的使用场景足够了。">
+		<meta property="og:url" content="https://www.yangyouji.info/archives/772">
+		<meta property="article:published_time" content="2021-11-10T02:20:05+00:00">
+		<meta property="article:modified_time" content="2023-02-15T06:39:50+00:00">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="C# 混淆工具 obfuscar - YangYouji&#39;s WebSite">
+		<meta name="twitter:description" content="c# 编译生成的exe 与 dll 如果不进行混淆，可以方便的反编译出源代码。虽然软件开源是趋势，但这种非自愿，非正式的公开还是给人不爽的感觉。c#混淆工具很多，收费的也很多，下面介绍一个开源混淆工具obfuscar，简单混淆一下的使用场景足够了。">
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BlogPosting","@id":"https:\/\/www.yangyouji.info\/archives\/772#blogposting","name":"C# \u6df7\u6dc6\u5de5\u5177 obfuscar - YangYouji's WebSite","headline":"C# \u6df7\u6dc6\u5de5\u5177 obfuscar","author":{"@id":"https:\/\/www.yangyouji.info\/archives\/author\/yangyouji#author"},"publisher":{"@id":"https:\/\/www.yangyouji.info\/#person"},"image":{"@type":"ImageObject","url":"https:\/\/www.yangyouji.info\/wp-content\/uploads\/2021\/11\/2CAfa7L.jpg","width":1200,"height":675},"datePublished":"2021-11-10T02:20:05+08:00","dateModified":"2023-02-15T06:39:50+08:00","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https:\/\/www.yangyouji.info\/archives\/772#webpage"},"isPartOf":{"@id":"https:\/\/www.yangyouji.info\/archives\/772#webpage"},"articleSection":"csharp, obfuscar"},{"@type":"BreadcrumbList","@id":"https:\/\/www.yangyouji.info\/archives\/772#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.yangyouji.info\/#listItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.yangyouji.info\/","name":"\u4e3b\u9801","description":"\u6b22\u8fce\u6765\u5230\u6211\u4eec\u7684\u673a\u5668\u89c6\u89c9\u8bba\u575b\uff0c\u8fd9\u91cc\u662f\u4e00\u4e2a\u4e13\u95e8\u8ba8\u8bbaOpenCV\u6280\u672f\u7684\u793e\u533a\u3002\u8bba\u575b\u65e8\u5728\u63d0\u4f9b\u4e00\u4e2a\u4ea4\u6d41\u5e73\u53f0\uff0c\u8ba9\u5f00\u53d1\u8005\u53ef\u4ee5\u5206\u4eab\u7ecf\u9a8c\uff0c\u8ba8\u8bba\u6700\u65b0\u7684\u673a\u5668\u89c6\u89c9\u6280\u672f\uff0c\u89e3\u51b3\u9047\u5230\u7684\u95ee\u9898\u3002\u8986\u76d6\u4e86\u5e7f\u6cdb\u7684OpenCV\u8bdd\u9898\uff0c\u65e0\u8bba\u4f60\u662f\u521a\u5165\u95e8\u7684\u65b0\u624b\u8fd8\u662f\u7ecf\u9a8c\u4e30\u5bcc\u7684\u4e13\u4e1a\u4eba\u58eb\uff0c\u6211\u4eec\u90fd\u6b22\u8fce\u4f60\u7684\u52a0\u5165\u3002","url":"https:\/\/www.yangyouji.info\/"}}]},{"@type":"Person","@id":"https:\/\/www.yangyouji.info\/#person","name":"youji"},{"@type":"Person","@id":"https:\/\/www.yangyouji.info\/archives\/author\/yangyouji#author","url":"https:\/\/www.yangyouji.info\/archives\/author\/yangyouji","name":"youji"},{"@type":"WebPage","@id":"https:\/\/www.yangyouji.info\/archives\/772#webpage","url":"https:\/\/www.yangyouji.info\/archives\/772","name":"C# \u6df7\u6dc6\u5de5\u5177 obfuscar - YangYouji's WebSite","description":"c# \u7f16\u8bd1\u751f\u6210\u7684exe \u4e0e dll \u5982\u679c\u4e0d\u8fdb\u884c\u6df7\u6dc6\uff0c\u53ef\u4ee5\u65b9\u4fbf\u7684\u53cd\u7f16\u8bd1\u51fa\u6e90\u4ee3\u7801\u3002\u867d\u7136\u8f6f\u4ef6\u5f00\u6e90\u662f\u8d8b\u52bf\uff0c\u4f46\u8fd9\u79cd\u975e\u81ea\u613f\uff0c\u975e\u6b63\u5f0f\u7684\u516c\u5f00\u8fd8\u662f\u7ed9\u4eba\u4e0d\u723d\u7684\u611f\u89c9\u3002c#\u6df7\u6dc6\u5de5\u5177\u5f88\u591a\uff0c\u6536\u8d39\u7684\u4e5f\u5f88\u591a\uff0c\u4e0b\u9762\u4ecb\u7ecd\u4e00\u4e2a\u5f00\u6e90\u6df7\u6dc6\u5de5\u5177obfuscar\uff0c\u7b80\u5355\u6df7\u6dc6\u4e00\u4e0b\u7684\u4f7f\u7528\u573a\u666f\u8db3\u591f\u4e86\u3002","inLanguage":"zh-CN","isPartOf":{"@id":"https:\/\/www.yangyouji.info\/#website"},"breadcrumb":{"@id":"https:\/\/www.yangyouji.info\/archives\/772#breadcrumblist"},"author":{"@id":"https:\/\/www.yangyouji.info\/archives\/author\/yangyouji#author"},"creator":{"@id":"https:\/\/www.yangyouji.info\/archives\/author\/yangyouji#author"},"image":{"@type":"ImageObject","url":"https:\/\/www.yangyouji.info\/wp-content\/uploads\/2021\/11\/2CAfa7L.jpg","@id":"https:\/\/www.yangyouji.info\/#mainImage","width":1200,"height":675},"primaryImageOfPage":{"@id":"https:\/\/www.yangyouji.info\/archives\/772#mainImage"},"datePublished":"2021-11-10T02:20:05+08:00","dateModified":"2023-02-15T06:39:50+08:00"},{"@type":"WebSite","@id":"https:\/\/www.yangyouji.info\/#website","url":"https:\/\/www.yangyouji.info\/","name":"YangYouji's WebSite","description":"IT,VISION","inLanguage":"zh-CN","publisher":{"@id":"https:\/\/www.yangyouji.info\/#person"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="XgaYbveNg8A2-waTIgcSmE_46q2Bp1stH3LzIW7wUgQ">
+<meta name="msvalidate.01" content="020FE3AF45A6BB88752799AC1375877E">
+<link rel="dns-prefetch" href="https://www.yangyouji.info/">
+<link rel="dns-prefetch" href="https://stats.wp.com/">
+<link rel="dns-prefetch" href="https://v0.wordpress.com/">
+<link rel="alternate" type="application/rss+xml" title="YangYouji&#39;s WebSite » Feed" href="https://www.yangyouji.info/feed">
+<link rel="alternate" type="application/rss+xml" title="YangYouji&#39;s WebSite » 评论Feed" href="https://www.yangyouji.info/comments/feed">
+<link rel="alternate" type="application/rss+xml" title="YangYouji&#39;s WebSite » C# 混淆工具 obfuscar评论Feed" href="https://www.yangyouji.info/archives/772/feed">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.yangyouji.info\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script><script src="./01_files/wp-emoji-release.min.js.下載" type="text/javascript" defer=""></script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./01_files/style.min.css" type="text/css" media="all">
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id="wp-block-library-theme-inline-css" type="text/css">
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<link rel="stylesheet" id="jetpack-videopress-video-block-view-css" href="./01_files/view.css" type="text/css" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="./01_files/mediaelementplayer-legacy.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="./01_files/wp-mediaelement.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="./01_files/classic-themes.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #21759b;--wp--preset--color--dark-gray: #444;--wp--preset--color--medium-gray: #9f9f9f;--wp--preset--color--light-gray: #e6e6e6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="ppress-frontend-css" href="./01_files/frontend.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="ppress-flatpickr-css" href="./01_files/flatpickr.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="ppress-select2-css" href="./01_files/select2.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-fonts-css" href="./01_files/font-open-sans.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-style-css" href="./01_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-block-style-css" href="./01_files/blocks.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css' href='https://www.yangyouji.info/wp-content/themes/twentytwelve/css/ie.css?ver=20150214' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="jetpack_css-css" href="./01_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="./01_files/jquery.min.js.下載" id="jquery-core-js"></script>
+<script type="text/javascript" src="./01_files/jquery-migrate.min.js.下載" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="./01_files/flatpickr.min.js.下載" id="ppress-flatpickr-js"></script>
+<script type="text/javascript" src="./01_files/select2.min.js.下載" id="ppress-select2-js"></script>
+<link rel="https://api.w.org/" href="https://www.yangyouji.info/wp-json/"><link rel="alternate" type="application/json" href="https://www.yangyouji.info/wp-json/wp/v2/posts/772"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.yangyouji.info/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.yangyouji.info/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.2.2">
+<link rel="shortlink" href="https://www.yangyouji.info/?p=772">
+<link rel="alternate" type="application/json+oembed" href="https://www.yangyouji.info/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.yangyouji.info%2Farchives%2F772">
+<link rel="alternate" type="text/xml+oembed" href="https://www.yangyouji.info/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.yangyouji.info%2Farchives%2F772&amp;format=xml">
+<!-- FIFU: social tags for featured image (begin) -->
+<meta property="og:image" content="https://www.yangyouji.info/wp-content/uploads/2021/11/2CAfa7L-1024x576.jpg">
+<!-- FIFU: social tags for featured image (end) --><meta property="og:title" content="C# 混淆工具 obfuscar">
+<meta property="og:description" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="C# 混淆工具 obfuscar">
+<meta name="twitter:description" content=""><meta name="twitter:image" content="https://www.yangyouji.info/wp-content/uploads/2021/11/2CAfa7L-1024x576.jpg"><link rel="alternate" type="text/html" media="only screen and (max-width: 640px)" href="https://www.yangyouji.info/archives/772?amp=1">	<style>img#wpstats{display:none}</style>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="amphtml" href="https://www.yangyouji.info/archives/772?amp=1">			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		<style>#amp-mobile-version-switcher{left:0;position:absolute;width:100%;z-index:100}#amp-mobile-version-switcher>a{background-color:#444;border:0;color:#eaeaea;display:block;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:16px;font-weight:600;padding:15px 0;text-align:center;-webkit-text-decoration:none;text-decoration:none}#amp-mobile-version-switcher>a:active,#amp-mobile-version-switcher>a:focus,#amp-mobile-version-switcher>a:hover{-webkit-text-decoration:underline;text-decoration:underline}</style><link rel="preload" as="style" href="./01_files/prettify.css"><link rel="stylesheet" type="text/css" href="./01_files/prettify.css"></head>
+
+<body class="post-template-default single single-post postid-772 single-format-standard wp-embed-responsive custom-font-enabled single-author">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0 0.49803921568627"></fefuncr><fefuncg type="table" tableValues="0 0.49803921568627"></fefuncg><fefuncb type="table" tableValues="0 0.49803921568627"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0 1"></fefuncr><fefuncg type="table" tableValues="0 1"></fefuncg><fefuncb type="table" tableValues="0 1"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tableValues="0 1"></fefuncg><fefuncb type="table" tableValues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0 1"></fefuncr><fefuncg type="table" tableValues="0 0.27843137254902"></fefuncg><fefuncb type="table" tableValues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0 0"></fefuncr><fefuncg type="table" tableValues="0 0.64705882352941"></fefuncg><fefuncb type="table" tableValues="0 1"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0.78039215686275 1"></fefuncr><fefuncg type="table" tableValues="0 0.94901960784314"></fefuncg><fefuncb type="table" tableValues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tableValues="0 1"></fefuncg><fefuncb type="table" tableValues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tableValues="0.098039215686275 1"></fefuncr><fefuncg type="table" tableValues="0 0.66274509803922"></fefuncg><fefuncb type="table" tableValues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tableValues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><div id="page" class="hfeed site">
+	<header id="masthead" class="site-header">
+		<hgroup>
+			<h1 class="site-title"><a href="https://www.yangyouji.info/" rel="home">YangYouji's WebSite</a></h1>
+			<h2 class="site-description">IT,VISION</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle">菜单</button>
+			<a class="assistive-text" href="https://www.yangyouji.info/archives/772#content">跳至正文</a>
+			<div class="menu-wptouch-recovered-page-menu-container"><ul id="menu-wptouch-recovered-page-menu" class="nav-menu"><li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-71"><a href="https://www.yangyouji.info/postnew">所有文章</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+			
+				
+	<article id="post-772" class="post-772 post type-post status-publish format-standard has-post-thumbnail hentry category-csharp tag-obfuscar">
+				<header class="entry-header">
+			<img width="624" height="351" src="./01_files/2CAfa7L-624x351.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image jetpack-lazy-image jetpack-lazy-image--handled" alt="" decoding="async" srcset="https://www.yangyouji.info/wp-content/uploads/2021/11/2CAfa7L-624x351.jpg 624w, https://www.yangyouji.info/wp-content/uploads/2021/11/2CAfa7L-300x169.jpg 300w, https://www.yangyouji.info/wp-content/uploads/2021/11/2CAfa7L-1024x576.jpg 1024w, https://www.yangyouji.info/wp-content/uploads/2021/11/2CAfa7L-768x432.jpg 768w, https://www.yangyouji.info/wp-content/uploads/2021/11/2CAfa7L.jpg 1200w" data-lazy-loaded="1" sizes="(max-width: 624px) 100vw, 624px" loading="eager">
+						<h1 class="entry-title">C# 混淆工具 obfuscar</h1>
+										<div class="comments-link">
+					<a href="https://www.yangyouji.info/archives/772#respond"><span class="leave-reply">发表评论</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			
+<p>       c#  编译生成的exe 与 dll 如果不进行混淆，可以方便的反编译出源代码。虽然软件开源是趋势，但这种非自愿，非正式的公开还是给人不爽的感觉。c#混淆工具很多，收费的也很多，下面介绍一个开源混淆工具obfuscar，简单混淆一下的使用场景足够了。使用方法参考了<a href="https://www.qiufengblog.com/articles/csharp-code-encryption.html">https://www.qiufengblog.com/articles/csharp-code-encryption.html</a>.obfuscar源码放在github上h<a href="ttps://github.com/obfuscar/obfuscar">ttps://github.com/obfuscar/obfuscar</a></p>
+
+
+
+<p>一. 安装obfuscar</p>
+
+
+
+<p>    obfuscar可以通过Nuget工具方便的安装。在Nuget安装界面搜索obfuscar后点击安装即可</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="./01_files/obnuget.PNG" alt="" class="jetpack-lazy-image jetpack-lazy-image--handled" data-lazy-loaded="1" loading="eager"><noscript><img data-lazy-fallback="1" decoding="async" src="https://cdn.jsdelivr.net/gh/yangyouji/webpic@main/img/obnuget.PNG" alt="" /></noscript></figure>
+
+
+
+<span id="more-772"></span>
+
+
+
+<p>二.新建obfuscar配置文件</p>
+
+
+
+<p>     在项目的根目录新建obfuscar的配置文件，如果项目中有许多子项目，建议在主项目里配置obfuscar，后续会说明原因。新建的配置文件名为obfuscar.xml。建好后选择其文件属性 复制到输出目录 如果较新则复制。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="./01_files/obsetting.PNG" alt="" class="jetpack-lazy-image jetpack-lazy-image--handled" data-lazy-loaded="1" loading="eager"><noscript><img data-lazy-fallback="1" decoding="async" src="https://cdn.jsdelivr.net/gh/yangyouji/webpic@main/img/obsetting.PNG" alt="" /></noscript></figure>
+
+
+
+<p>配置文件内容如下：</p>
+
+
+
+<pre class="wp-block-code prettyprinted" style=""><code class=" prettyprinted" style=""><span class="pun"><span class="pun">&lt;?</span></span><span class="pln"><span class="pln">xml version</span></span><span class="pun"><span class="pun">=</span></span><span class="str"><span class="str">"1.0"</span></span><span class="pln"><span class="pln"> encoding</span></span><span class="pun"><span class="pun">=</span></span><span class="str"><span class="str">"utf-8"</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">?&gt;</span></span><span class="pln"><span class="pln">
+</span></span><span class="tag"><span class="tag">&lt;Obfuscator&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="com"><span class="com">&lt;!--输入路径--&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="tag"><span class="tag">&lt;Var</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">name</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"InPath"</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">value</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"."</span></span><span class="pln"><span class="pln"> </span></span><span class="tag"><span class="tag">/&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="com"><span class="com">&lt;!--输出路径:加密混淆过的路径--&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="tag"><span class="tag">&lt;Var</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">name</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"OutPath"</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">value</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">".\Obfuscator_Output"</span></span><span class="pln"><span class="pln"> </span></span><span class="tag"><span class="tag">/&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="com"><span class="com">&lt;!--混淆代码的参数--&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="tag"><span class="tag">&lt;Var</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">name</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"ReuseNames"</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">value</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"false"</span></span><span class="pln"><span class="pln"> </span></span><span class="tag"><span class="tag">/&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="tag"><span class="tag">&lt;Var</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">name</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"HideStrings"</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">value</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"true"</span></span><span class="pln"><span class="pln"> </span></span><span class="tag"><span class="tag">/&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="tag"><span class="tag">&lt;Var</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">name</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"KeepPublicApi"</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">value</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"false"</span></span><span class="pln"><span class="pln"> </span></span><span class="tag"><span class="tag">/&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="tag"><span class="tag">&lt;Var</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">name</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"HidePrivateApi"</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">value</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"true"</span></span><span class="pln"><span class="pln"> </span></span><span class="tag"><span class="tag">/&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="tag"><span class="tag">&lt;Var</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">name</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"UseKoreanNames"</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">value</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"true"</span></span><span class="pln"><span class="pln"> </span></span><span class="tag"><span class="tag">/&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="com"><span class="com">&lt;!--要混淆的模块--&gt;</span></span><span class="pln"><span class="pln">
+  </span></span><span class="tag"><span class="tag">&lt;Module</span></span><span class="pln"><span class="pln"> </span></span><span class="atn"><span class="atn">file</span></span><span class="pun"><span class="pun">=</span></span><span class="atv"><span class="atv">"$(InPath)\obstest.exe"</span></span><span class="pln"><span class="pln"> </span></span><span class="tag"><span class="tag">/&gt;</span></span><span class="pln"><span class="pln">
+</span></span><span class="tag"><span class="tag">&lt;/Obfuscator&gt;</span></span></code></pre>
+
+
+
+<p>说明：</p>
+
+
+
+<p>       1.混淆的参数有很多，可以参考<a href="https://docs.obfuscar.com/getting-started/configuration.html#settings">https://docs.obfuscar.com/getting-started/configuration.html#settings</a> 进行添加或删减<br>       2.需要混淆模块可以是exe 也可以是dll ，可以一个也可以多个。实际使用时，需要改成自己的exe名字或dll名字</p>
+
+
+
+<p>三.配置后期生成事件命令行</p>
+
+
+
+<p>     右击项目选择属性，在生成事件里填入如下内容，</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="./01_files/obconfigsetting.PNG" alt="" class="jetpack-lazy-image jetpack-lazy-image--handled" data-lazy-loaded="1" loading="eager"><noscript><img data-lazy-fallback="1" decoding="async" src="https://cdn.jsdelivr.net/gh/yangyouji/webpic@main/img/obconfigsetting.PNG" alt="" /></noscript></figure>
+
+
+
+<pre class="wp-block-code prettyprinted" style=""><code class=" prettyprinted" style=""><span class="kwd"><span class="kwd">set</span></span><span class="pln"><span class="pln"> </span></span><span class="str"><span class="str">"str=$(ConfigurationName)"</span></span><span class="pln"><span class="pln"> 
+</span></span><span class="kwd"><span class="kwd">if</span></span><span class="pln"><span class="pln"> </span></span><span class="str"><span class="str">"%str%"</span></span><span class="pun"><span class="pun">==</span></span><span class="str"><span class="str">"Release"</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">(</span></span><span class="pln"><span class="pln">
+CD $</span></span><span class="pun"><span class="pun">(</span></span><span class="typ"><span class="typ">TargetDir</span></span><span class="pun"><span class="pun">)</span></span><span class="pln"><span class="pln">
+</span></span><span class="str"><span class="str">"$(Obfuscar)"</span></span><span class="pln"><span class="pln"> obfuscar</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">xml
+xcopy </span></span><span class="typ"><span class="typ">Obfuscator_Output</span></span><span class="pln"><span class="pln">\*</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">dll   </span></span><span class="pun"><span class="pun">/</span></span><span class="pln"><span class="pln">y </span></span><span class="pun"><span class="pun">/</span></span><span class="pln"><span class="pln">e </span></span><span class="pun"><span class="pun">/</span></span><span class="pln"><span class="pln">i </span></span><span class="pun"><span class="pun">/</span></span><span class="pln"><span class="pln">q
+xcopy </span></span><span class="typ"><span class="typ">Obfuscator_Output</span></span><span class="pln"><span class="pln">\*</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">exe   </span></span><span class="pun"><span class="pun">/</span></span><span class="pln"><span class="pln">y </span></span><span class="pun"><span class="pun">/</span></span><span class="pln"><span class="pln">e </span></span><span class="pun"><span class="pun">/</span></span><span class="pln"><span class="pln">i </span></span><span class="pun"><span class="pun">/</span></span><span class="pln"><span class="pln">q
+</span></span><span class="pun"><span class="pun">)</span></span></code></pre>
+
+
+
+<p>说明：</p>
+
+
+
+<p>1. if “%str%”==”Release”  这句是限制了只release版本进行混淆。如果都有混淆，删掉即可。</p>
+
+
+
+<p>2. CD $(TargetDir)   “$(Obfuscar)” obfuscar.xml  这个两句是cd到生成目录。执行xml 进行配置好的混淆</p>
+
+
+
+<p>3. xcopy Obfuscator_Output\*.dll   /y /e /i /q  xcopy是将混淆后的文件复制到生成目录 覆盖掉原来的问题。注意如果在子项目中运行这两句话，会导致主项目找不到dll 而生成失败。Obfuscator_Output 这个文件夹不会主动创建，需要自己手动在生成目录创建一下。</p>
+
+
+
+<p>四.直接点击运行即可</p>
+
+
+
+<p>    如果运行成功，在生成的输出框里可以看到如下类似的内容</p>
+
+
+
+<pre class="wp-block-code prettyprinted" style=""><code class=" prettyprinted" style=""><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;------</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">已启动全部重新生成:</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">项目:</span></span><span class="pln"><span class="pln"> obstest</span></span><span class="pun"><span class="pun">,</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">配置:</span></span><span class="pln"><span class="pln"> </span></span><span class="typ"><span class="typ">Release</span></span><span class="pln"><span class="pln"> </span></span><span class="typ"><span class="typ">Any</span></span><span class="pln"><span class="pln"> CPU </span></span><span class="pun"><span class="pun">------</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  obstest </span></span><span class="pun"><span class="pun">-&gt;</span></span><span class="pln"><span class="pln"> D</span></span><span class="pun"><span class="pun">:</span></span><span class="pln"><span class="pln">\vsproject\obstest\obstest\b</span></span><span class="kwd"><span class="kwd">in</span></span><span class="pln"><span class="pln">\Release\obstest</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">exe
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="typ"><span class="typ">Note</span></span><span class="pln"><span class="pln"> that </span></span><span class="typ"><span class="typ">Rollbar</span></span><span class="pln"><span class="pln"> API </span></span><span class="kwd"><span class="kwd">is</span></span><span class="pln"><span class="pln"> enabled </span></span><span class="kwd"><span class="kwd">by</span></span><span class="pln"><span class="pln"> </span></span><span class="kwd"><span class="kwd">default</span></span><span class="pln"><span class="pln"> to collect crashes</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln"> </span></span><span class="typ"><span class="typ">If</span></span><span class="pln"><span class="pln"> you want to opt </span></span><span class="kwd"><span class="kwd">out</span></span><span class="pun"><span class="pun">,</span></span><span class="pln"><span class="pln"> please run </span></span><span class="kwd"><span class="kwd">with</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">-</span></span><span class="pln"><span class="pln">s </span></span><span class="kwd"><span class="kwd">switch</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="typ"><span class="typ">Loading</span></span><span class="pln"><span class="pln"> project obfuscar</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">xml</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Processing</span></span><span class="pln"><span class="pln"> assembly</span></span><span class="pun"><span class="pun">:</span></span><span class="pln"><span class="pln"> obstest</span></span><span class="pun"><span class="pun">,</span></span><span class="pln"><span class="pln"> </span></span><span class="typ"><span class="typ">Version</span></span><span class="pun"><span class="pun">=</span></span><span class="lit"><span class="lit">1.0</span></span><span class="pun"><span class="pun">.</span></span><span class="lit"><span class="lit">0.0</span></span><span class="pun"><span class="pun">,</span></span><span class="pln"><span class="pln"> </span></span><span class="typ"><span class="typ">Culture</span></span><span class="pun"><span class="pun">=</span></span><span class="pln"><span class="pln">neutral</span></span><span class="pun"><span class="pun">,</span></span><span class="pln"><span class="pln"> </span></span><span class="typ"><span class="typ">PublicKeyToken</span></span><span class="pun"><span class="pun">=</span></span><span class="kwd"><span class="kwd">null</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="typ"><span class="typ">Loading</span></span><span class="pln"><span class="pln"> assemblies</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Extra</span></span><span class="pln"><span class="pln"> framework folders</span></span><span class="pun"><span class="pun">:</span></span><span class="pln"><span class="pln"> </span></span><span class="typ"><span class="typ">Done</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="typ"><span class="typ">Hiding</span></span><span class="pln"><span class="pln"> strings</span></span><span class="pun"><span class="pun">...</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="typ"><span class="typ">Renaming</span></span><span class="pun"><span class="pun">:</span></span><span class="pln"><span class="pln">  fields</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Parameters</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Properties</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Events</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Methods</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Types</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Done</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="typ"><span class="typ">Saving</span></span><span class="pln"><span class="pln"> assemblies</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Done</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="typ"><span class="typ">Writing</span></span><span class="pln"><span class="pln"> log file</span></span><span class="pun"><span class="pun">...</span></span><span class="typ"><span class="typ">Done</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="typ"><span class="typ">Completed</span></span><span class="pun"><span class="pun">,</span></span><span class="pln"><span class="pln"> </span></span><span class="lit"><span class="lit">0.61</span></span><span class="pln"><span class="pln"> secs</span></span><span class="pun"><span class="pun">.</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="pun"><span class="pun">找不到文件</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">-</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">*.</span></span><span class="pln"><span class="pln">dll
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="pun"><span class="pun">复制了</span></span><span class="pln"><span class="pln"> </span></span><span class="lit"><span class="lit">0</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">个文件</span></span><span class="pln"><span class="pln">
+</span></span><span class="lit"><span class="lit">1</span></span><span class="pun"><span class="pun">&gt;</span></span><span class="pln"><span class="pln">  </span></span><span class="pun"><span class="pun">复制了</span></span><span class="pln"><span class="pln"> </span></span><span class="lit"><span class="lit">1</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">个文件</span></span><span class="pln"><span class="pln">
+</span></span><span class="pun"><span class="pun">==========</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">全部重新生成:</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">成功</span></span><span class="pln"><span class="pln"> </span></span><span class="lit"><span class="lit">1</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">个，失败</span></span><span class="pln"><span class="pln"> </span></span><span class="lit"><span class="lit">0</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">个，跳过</span></span><span class="pln"><span class="pln"> </span></span><span class="lit"><span class="lit">0</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">个</span></span><span class="pln"><span class="pln"> </span></span><span class="pun"><span class="pun">==========</span></span></code></pre>
+
+
+
+<p>五.工作原理和注意点</p>
+
+
+
+<p>     Obfuscar混淆功能实现的核心 方法是  “$(Obfuscar)” obfuscar.xml  这句话。调用命令行，运行 Obfuscar.Console.exe 这个程序，使用 obfuscar.xml配置文件。运行这个程序后， Obfuscar 会修改exe 和 dll中的函数名和变量名修改为没有意义的字符，达到简单混淆的目的。</p>
+
+
+
+<p>     但是由于修改了函数名，因此如果是给第三方用的dll，第三方就不能使用了。除非设置 &lt;Var name=”KeepPublicApi” value=”true” /&gt; </p>
+
+
+
+<p>     另外，如果自己的项目里一个子项目被多个项目引用，混淆只能统一运行一次，即将所有需要混淆的exe 和 dll 放在一个xml里运行。不然会导致自己的项目找不到dll函数入口。</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			本条目发布于<a href="https://www.yangyouji.info/archives/772" title="上午10:20" rel="bookmark"><time class="entry-date" datetime="2021-11-10T10:20:05+08:00">2021年11月10日</time></a>。属于<a href="https://www.yangyouji.info/archives/category/csharp" rel="category tag">csharp</a>分类，被贴了 <a href="https://www.yangyouji.info/archives/tag/obfuscar" rel="tag">obfuscar</a> 标签。<span class="by-author">作者是<span class="author vcard"><a class="url fn n" href="https://www.yangyouji.info/archives/author/yangyouji" title="查看所有由youji发布的文章" rel="author">youji</a></span>。</span>								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text">文章导航</h3>
+					<span class="nav-previous"><a href="https://www.yangyouji.info/archives/739" rel="prev"><span class="meta-nav">←</span> OPENCV + CUDA 实现小波滤波</a></span>
+					<span class="nav-next"><a href="https://www.yangyouji.info/archives/795" rel="next">Opencv Inpaint use CUDA Backend <span class="meta-nav">→</span></a></span>
+				</nav><!-- .nav-single -->
+
+				
+<div id="comments" class="comments-area">
+
+	
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">发表回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.yangyouji.info/archives/772#respond" style="display:none;">取消回复</a></small></h3><form action="https://www.yangyouji.info/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">您的电子邮箱地址不会被公开。</span> <span class="required-field-message">必填项已用<span class="required">*</span>标注</span></p><p class="comment-form-comment"><label for="comment">评论 <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">显示名称</label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name"></p>
+<p class="comment-form-email"><label for="email">电子邮箱地址</label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email"></p>
+<p class="comment-form-url"><label for="url">网站地址</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200" autocomplete="url"></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="发表评论"> <input type="hidden" name="comment_post_ID" value="772" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="467fc5d7e1"></p><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1688013432733"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments .comments-area -->
+
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://www.yangyouji.info/">
+				<div>
+					<label class="screen-reader-text" for="s">搜索：</label>
+					<input type="text" value="" name="s" id="s">
+					<input type="submit" id="searchsubmit" value="搜索">
+				</div>
+			</form></aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h3 class="widget-title">近期文章</h3>
+		<ul>
+											<li>
+					<a href="https://www.yangyouji.info/archives/1000">利用OPENCV和CUDA实现的基于Gabor滤波的曲线检测算法</a>
+									</li>
+											<li>
+					<a href="https://www.yangyouji.info/archives/963">在c#中使用OpencvSharp + YOLO v5 模型</a>
+									</li>
+											<li>
+					<a href="https://www.yangyouji.info/archives/918">使用TorchSharp 调用 PyTorch 语义分割神经网络模型</a>
+									</li>
+											<li>
+					<a href="https://www.yangyouji.info/archives/872">CUDA + subPixel + EDGE 边缘检测</a>
+									</li>
+											<li>
+					<a href="https://www.yangyouji.info/archives/834">使用GSL C++库解2元非线性方程组</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">近期评论</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">youji</span>发表在《<a href="https://www.yangyouji.info/archives/963#comment-1091">在c#中使用OpencvSharp + YOLO v5 模型</a>》</li><li class="recentcomments"><span class="comment-author-link">匿名</span>发表在《<a href="https://www.yangyouji.info/archives/963#comment-1090">在c#中使用OpencvSharp + YOLO v5 模型</a>》</li><li class="recentcomments"><span class="comment-author-link">youji</span>发表在《<a href="https://www.yangyouji.info/archives/416#comment-510">OpencvSharp 中使用 cuda</a>》</li><li class="recentcomments"><span class="comment-author-link">henry.lee</span>发表在《<a href="https://www.yangyouji.info/archives/416#comment-509">OpencvSharp 中使用 cuda</a>》</li><li class="recentcomments"><span class="comment-author-link">youji</span>发表在《<a href="https://www.yangyouji.info/archives/416#comment-508">OpencvSharp 中使用 cuda</a>》</li></ul></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">归档</h3>		<label class="screen-reader-text" for="archives-dropdown-2">归档</label>
+		<select id="archives-dropdown-2" name="archive-dropdown">
+			
+			<option value="">选择月份</option>
+				<option value="https://www.yangyouji.info/archives/date/2023/03"> 2023年3月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2023/02"> 2023年2月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2022/09"> 2022年9月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2022/04"> 2022年4月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2022/02"> 2022年2月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2021/12"> 2021年12月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2021/11"> 2021年11月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2021/10"> 2021年10月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2021/08"> 2021年8月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2021/06"> 2021年6月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2020/09"> 2020年9月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2020/05"> 2020年5月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2020/01"> 2020年1月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2019/11"> 2019年11月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2019/10"> 2019年10月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2019/09"> 2019年9月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2019/06"> 2019年6月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2019/03"> 2019年3月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2019/02"> 2019年2月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2019/01"> 2019年1月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2017/11"> 2017年11月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2017/08"> 2017年8月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2017/06"> 2017年6月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2017/04"> 2017年4月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2016/09"> 2016年9月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2016/08"> 2016年8月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2016/07"> 2016年7月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2016/06"> 2016年6月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2016/05"> 2016年5月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2016/02"> 2016年2月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2016/01"> 2016年1月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2015/12"> 2015年12月 </option>
+	<option value="https://www.yangyouji.info/archives/date/2015/03"> 2015年3月 </option>
+
+		</select>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-2" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+			</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">分类</h3>
+			<ul>
+					<li class="cat-item cat-item-75"><a href="https://www.yangyouji.info/archives/category/c">C++</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://www.yangyouji.info/archives/category/centos">centos</a>
+</li>
+	<li class="cat-item cat-item-61"><a href="https://www.yangyouji.info/archives/category/csharp">csharp</a>
+</li>
+	<li class="cat-item cat-item-71"><a href="https://www.yangyouji.info/archives/category/cuda">CUDA</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="https://www.yangyouji.info/archives/category/else">else</a>
+</li>
+	<li class="cat-item cat-item-42"><a href="https://www.yangyouji.info/archives/category/jetson">Jetson</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://www.yangyouji.info/archives/category/linux">linux</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="https://www.yangyouji.info/archives/category/opencv">opencv</a>
+</li>
+	<li class="cat-item cat-item-89"><a href="https://www.yangyouji.info/archives/category/pytorch">pytorch</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://www.yangyouji.info/archives/category/raspberry">raspberry</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://www.yangyouji.info/archives/category/tensorflow">tensorflow</a>
+</li>
+			</ul>
+
+			</aside><aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">其他操作</h3>
+		<ul>
+			<li><a href="https://www.yangyouji.info/sign-up">注册</a></li>			<li><a href="https://www.yangyouji.info/log-in">登录</a></li>
+			<li><a href="https://www.yangyouji.info/feed">条目feed</a></li>
+			<li><a href="https://www.yangyouji.info/comments/feed">评论feed</a></li>
+
+			<li><a href="https://cn.wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+									<a href="https://cn.wordpress.org/" class="imprint" title="优雅的个人发布平台">
+				自豪地采用WordPress			</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<div id="amp-mobile-version-switcher" hidden="">
+			<a rel="" href="https://www.yangyouji.info/archives/772?amp=1">
+				转到手机版			</a>
+		</div>
+
+				<script type="text/javascript" id="code-prettify-js-before">
+var codePrettifyLoaderBaseUrl = "https:\/\/www.yangyouji.info\/wp-content\/plugins\/code-prettify\/prettify";
+</script>
+
+<script type="text/javascript" id="ppress-frontend-script-js-extra">
+/* <![CDATA[ */
+var pp_ajax_form = {"ajaxurl":"https:\/\/www.yangyouji.info\/wp-admin\/admin-ajax.php","confirm_delete":"Are you sure?","deleting_text":"Deleting...","deleting_error":"An error occurred. Please try again.","nonce":"5e6aebdc9e","disable_ajax_form":"false","is_checkout":"0","is_checkout_tax_enabled":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./01_files/frontend.min.js.下載" id="ppress-frontend-script-js"></script>
+<script type="text/javascript" src="./01_files/comment-reply.min.js.下載" id="comment-reply-js"></script>
+<script type="text/javascript" src="./01_files/navigation.js.下載" id="twentytwelve-navigation-js"></script>
+<script type="text/javascript" src="./01_files/intersection-observer.js.下載" id="jetpack-lazy-images-polyfill-intersectionobserver-js"></script>
+<script type="text/javascript" id="jetpack-lazy-images-js-extra">
+/* <![CDATA[ */
+var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./01_files/lazy-images.js.下載" id="jetpack-lazy-images-js"></script>
+<script defer="" type="text/javascript" src="./01_files/e-202326.js.下載" id="jetpack-stats-js"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'158407702',post:'772',tz:'8',srv:'www.yangyouji.info',j:'1:12.2.1'} ]);
+_stq.push([ "clickTrackerInit", "158407702", "772" ]);
+</script>
+<script defer="" type="text/javascript" src="./01_files/akismet-frontend.js.下載" id="akismet-frontend-js"></script>
+
+
+
+
+
+
+
+<img src="./01_files/g.gif" alt="" width="6" height="5" id="wpstats"></body></html>

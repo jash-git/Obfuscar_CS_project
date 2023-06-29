@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MSBuild.Obfuscar/2.2.35.2": {
+        "type": "package",
+        "dependencies": {
+          "Obfuscar": "2.2.35"
+        },
+        "build": {
+          "build/MSBuild.Obfuscar.targets": {}
+        }
+      },
+      "Obfuscar/2.2.37": {
+        "type": "package",
+        "build": {
+          "build/obfuscar.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MSBuild.Obfuscar/2.2.35.2": {
+      "sha512": "5aj+yO9PQJC5yXhqfB33B2vwSbSoO7QcU9lKfkB9UoTVcJsg8nNw90YfgWhs0ZIRBzxDIAJl3G/+Jp6Ax7hw7g==",
+      "type": "package",
+      "path": "msbuild.obfuscar/2.2.35.2",
+      "files": [
+        ".editoricon.png",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/MSBuild.Obfuscar.targets",
+        "content/Obfuscar.xml.transform",
+        "msbuild.obfuscar.2.2.35.2.nupkg.sha512",
+        "msbuild.obfuscar.nuspec"
+      ]
+    },
+    "Obfuscar/2.2.37": {
+      "sha512": "vK0+/SYvEKvLD2ZdxDwZskOXkidRg0fkG1/clOB+albDLGAj/WShgkFhYh+4w1GaWCDTTiL7Q4306aaPzUAoVw==",
+      "type": "package",
+      "path": "obfuscar/2.2.37",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Potion-icon.png",
+        "build/obfuscar.props",
+        "obfuscar.2.2.37.nupkg.sha512",
+        "obfuscar.nuspec",
+        "tools/Obfuscar.Console.exe"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MSBuild.Obfuscar >= 2.2.35.2",
+      "Obfuscar >= 2.2.37"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\devel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\devel\\Desktop\\GITHUB\\Obfuscar_CS_project\\Obfuscar_CS_test\\Obfuscar_CS_test\\Obfuscar_CS_test.csproj",
+      "projectName": "Obfuscar_CS_test",
+      "projectPath": "C:\\Users\\devel\\Desktop\\GITHUB\\Obfuscar_CS_project\\Obfuscar_CS_test\\Obfuscar_CS_test\\Obfuscar_CS_test.csproj",
+      "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\devel\\Desktop\\GITHUB\\Obfuscar_CS_project\\Obfuscar_CS_test\\Obfuscar_CS_test\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\devel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MSBuild.Obfuscar": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.2.35.2, )"
+          },
+          "Obfuscar": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.2.37, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

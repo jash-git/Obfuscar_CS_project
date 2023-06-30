@@ -1,17 +1,17 @@
 開源 C# 混淆器[obfuscar]
 
-https://www.nuget.org/packages/Obfuscar.GlobalTool/2.2.37
+元件介紹: https://www.nuget.org/packages/Obfuscar.GlobalTool/2.2.37
 
 教學影片: https://www.youtube.com/watch?v=DRYQIjjke5Y
 
 教學網頁: https://www.yangyouji.info/archives/772
 https://docs.obfuscar.com/getting-started/configuration#settings
 
-自己實作步驟:
+實作步驟:
 00.建立C#專案
 01.使用Nuget搜尋obfuscar並安裝下列元件
-	Obfuscar
-	MSBuild.Obfuscar
+	Obfuscar [2.2.37]
+	MSBuild.Obfuscar[2.2.35.2]
 
 02.專案新增Obfuscar.xml，該檔案內容如下
 <?xml version="1.0" encoding="utf-8" ?>
